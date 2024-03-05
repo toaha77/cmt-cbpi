@@ -1,0 +1,26 @@
+ [
+      {
+        "roll": "2024001",
+        "registration": "R2024001",
+        "name": "John Doe",
+        "father_name": "Michael Doe",
+        "mother_name": "Emily Doe",
+        "session": "2024-2025",
+        "semester": "Spring 2024",
+        "department": "Computer Science",
+        "institute": "University of Fake"
+      },
+      {
+        "roll": "2024002",
+        "registration": "R2024002",
+        "name": "Jane Smith",
+        "father_name": "David Smith",
+        "mother_name": "Sophia Smith",
+        "session": "2024-2025",
+        "semester": "Spring 2024",
+        "department": "Electrical Engineering",
+        "institute": "University of Fiction"
+      }
+    ]
+
+  

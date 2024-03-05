@@ -1,0 +1,83 @@
+[
+
+   
+    {
+      "id": 1,
+      "name": "Pravas Kanti Dey",
+      "description": "Chief Instructor (Computer) & Head of the Department. ",
+      "department": "Computer Department",
+      "home": "Cox's Bazar",
+      "education": "B.Sc.(Engg) in CSE",
+      "mobile": "123-456-7890",
+      "photo" : "https://i.ibb.co/XFNXdtC/399705362-2772745836209692-4242463946136609224-n.jpg",
+      "email": "john.doe@example.com"
+    },
+    {
+      "id": 2,
+      "name": "Zico Marma",
+      "description": "Additional Chief Instructor (Computer).",
+      "photo" : "https://i.ibb.co/2SBdLSF/Whats-App-Image-2024-02-19-at-7-16-23-PM-1.jpg",
+      "department": "Computer Department",
+      "home": "Rangamati",
+      "education": "B.Sc.(Engg) in CSE",
+      "mobile": "987-654-3210",
+      "email": "jane.smith@example.com"
+    },
+    {
+      "id": 3,
+      "name": "Shariful Islam Shawon",
+      "description": "Instructor, STEP to Revenue Processing (Computer) ",
+      "department": "Computer Department",
+      "home": "Cox's Bazar",
+      "education": "B.Sc.(Engg) in CSE",
+      "mobile": "567-890-1234",
+      "photo": "https://i.ibb.co/7NSN88P/shawon.jpg",
+      "email": "alice.johnson@example.com"
+    },
+    {
+      "id": 4,
+      "name": "Masud Rana",
+      "description": "Instructor, STEP to Revenue Processing (Computer) ",
+      "department": "Computer Department",
+      "home": "Sirajgonj",
+      "education": "B.Sc.(Engg) in CSE",
+      "photo": "https://i.ibb.co/VJx8pYW/masud.jpg",
+      "mobile": "876-543-2109",
+      "email": "bob.williams@example.com"
+    },
+    {
+      "id": 5,
+      "name": "Ahmed Rafique Aziz",
+      "description": "Instructor, STEP to Revenue Processing (Computer) ",
+      "department": "Computer Department",
+      "home": "Mymensingh",
+      "education": "B.Sc.(Engg) in EEE",
+      "mobile": "234-567-8901",
+      "photo" : "https://i.ibb.co/F3d8HQS/aziz.jpg",
+      "email": "emily.brown@example.com"
+    },
+   
+    {
+      "id": 6,
+      "name": "Faisal Bin Nur",
+      "description": "Guest lecturer (Computer).",
+      "department": "Computer Department",
+      "home": "Cox's Bazar",
+      "photo": "https://i.ibb.co/QfXPngX/327377434-587391046551589-6522649290490441966-n.jpg",
+      "education": "Diploma In Computer Technology",
+      "mobile": "345-678-9012",
+      "email": "michael.davis@example.com"
+    },
+    {
+      "id": 7,
+      "name": "Md Arman",
+      "description": "Guest lecturer (Computer).",
+      "department": "Computer Department",
+      "home": "Cox's Bazar",
+      "education": "Diploma In Computer Technology",
+      "photo" : "https://i.ibb.co/TBwqYNr/410232064-1799841213801344-4974837788804367007-n.jpg",
+      "mobile": "345-678-9012",
+      "email": "michael.davis@example.com"
+    }
+  ]
+  
