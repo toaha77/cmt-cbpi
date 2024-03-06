@@ -85,7 +85,7 @@ const NavBar = () => {
         animate={navbar ? "open" : "closed"}
         variants={variants}
         transition={{ type: "tween" }}
-        className={`fixed h-screen  bg-green-700 font-semibold top-0 px-10 py-10 md:hidden flex flex-col gap-4 z-50 
+        className={`fixed h-screen  bg-green-700 font-semibold top-0 px-8 py-8 md:hidden flex flex-col gap-4 z-50 
         ${navbar ? "left0" : "-translate-x-full"}
         `}
       >
@@ -100,26 +100,12 @@ const NavBar = () => {
         <div className="hidden md:flex items-center justify-center list-none gap-4">
           {navLinks}
         </div>
-        <div>
-          <div className="block md:hidden">
-            <div
-              onClick={() => {
-                setNavbar(!navbar);
-              }}
-              className=""
-            >
-              {navbar ? (
-                <LiaTimesSolid   onClick={() => setNavbar(false)}
-                className="text-2xl duration-300 active:scale-75 cursor-pointer select-none"></LiaTimesSolid>
-              ) : (
-                <HiOutlineBars3BottomRight className="text-2xl duration-300 active:scale-75 cursor-pointer select-none"></HiOutlineBars3BottomRight>
-              )}
-            </div>
-          </div>
-        </div>
-        <div className="invisible lg:visible">
-                    {
-                        user?.email ? <div className="dropdown dropdown-end">
+        
+
+<div>
+          {user ? (
+            <div className="flex items-center gap-2">
+            <div className="dropdown dropdown-end">
                             <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
                                 <div className="w-10 rounded-full">
                                     <img src={user.photoURL} alt={user.displayName} />
@@ -138,12 +124,46 @@ const NavBar = () => {
                                 </li>
                             </ul>
                         </div>
-                            :
-                            <Link to='/login'>
-                                <button className="btn btn-sm  btn-ghost">Login</button>
-                            </Link>
-                    }
+                            
+              <div className="block md:hidden">
+                <div
+                  onClick={() => {
+                    setNavbar(!navbar);
+                  }}
+                  className=""
+                >
+                  {navbar ? (
+                    <LiaTimesSolid className="text-2xl duration-300 active:scale-75 cursor-pointer select-none"></LiaTimesSolid>
+                  ) : (
+                    <HiOutlineBars3BottomRight className="text-2xl duration-300 active:scale-75 cursor-pointer select-none"></HiOutlineBars3BottomRight>
+                  )}
                 </div>
+              </div>
+            </div>
+          ) : (
+            <div className="flex items-center gap-2">
+              <Link to="login">
+                <p className="btn btn-sm px-3 py-1 rounded-full duration-300 select-none active:scale-90">
+                  Login
+                </p>
+              </Link>
+              <div className="block md:hidden">
+                <div
+                  onClick={() => {
+                    setNavbar(!navbar);
+                  }}
+                  className=""
+                >
+                  {navbar ? (
+                    <LiaTimesSolid className="text-2xl duration-300 active:scale-75 cursor-pointer select-none"></LiaTimesSolid>
+                  ) : (
+                    <HiOutlineBars3BottomRight className="text-2xl duration-300 active:scale-75 cursor-pointer select-none"></HiOutlineBars3BottomRight>
+                  )}
+                </div>
+              </div>
+            </div>
+          )}
+        </div>
       </nav>
     </div>
   );

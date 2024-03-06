@@ -12,7 +12,7 @@ const Footer = () => {
   
   
   <nav>
-    <h6 className="footer-title">Copyright & 2020-2021 CBPI, All Rights Reserved </h6> 
+    <h6 className="footer-title">Copyright ©  2020-2021 CBPI, All Rights Reserved </h6> 
     <p>Lead Developer <Link to="https://www.facebook.com/istaik.toaha" >Mohammad Toaha Alfeth</Link></p>
     
   </nav>

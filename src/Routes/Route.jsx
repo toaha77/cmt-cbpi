@@ -11,6 +11,7 @@ import Mission from "../Pages/Mission/Mission";
 import Routine from "../Pages/Routine/Routine";
 import Register from "../Pages/Register/Register";
 import Student from "../Pages/Student/Student";
+import PrivateRoute from "./PrivateRoute";
  
 const MyCreatedRoute = createBrowserRouter([
     {
@@ -39,7 +40,7 @@ const MyCreatedRoute = createBrowserRouter([
         },
         {
           path: '/mission',
-          element: <Mission></Mission>
+          element: <Mission></Mission> 
         },
         {
           path: '/routine',
@@ -53,7 +54,7 @@ const MyCreatedRoute = createBrowserRouter([
         },
         {
           path: '/student',
-          element: <Student></Student>
+          element: <PrivateRoute><Student></Student></PrivateRoute>
           
         },
          
